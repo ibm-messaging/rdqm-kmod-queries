@@ -14,4 +14,4 @@ If you are interested in contributing to this repository, please read the [docum
 ## Issue Tracking
 
 There is no formal product support for the code in this repository. If you encounter an issue,
-or which to suggest an enhancement, please create an issue in this repository.
+or wish to suggest an enhancement, please create an issue in this repository.
