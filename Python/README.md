@@ -8,7 +8,7 @@ There are two main queries that can be run:
 1. A query based just on a RHEL kernel version
 2. A query based on both a RHEL kernel version and an MQ version
 
-The script `runqueries`` contains examples of each query, using the published documents.
+The script `runqueries` contains examples of each query, using the published documents.
 
 The output when this script is run should be:
 ```
