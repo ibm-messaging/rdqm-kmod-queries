@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Queries without an MQ level
+
+echo "Query 1a: A query for a kernel that is not in the document at all."
+echo "python rdqmkmodquery.py 3.10.0-1160.82.1"
+python rdqmkmodquery.py 3.10.0-1160.82.1
+
+echo -e "\n\nQuery 1e: A query for a kernel that has been fully tested and all MQ VRMFs are compatible."
+echo "python rdqmkmodquery.py 4.18.0-477.10.1"
+python rdqmkmodquery.py 4.18.0-477.10.1
+
+# Queries with an MQ level
+
+echo -e "\n\nQuery 2e: A query for a kernel that has been fully tested and all MQ VRMFs are compatible, MQ level matches"
+echo "python rdqmkmodquery.py --mq 9.3.0.1 5.14.0-162.22.2"
+python rdqmkmodquery.py --mq 9.3.0.1 5.14.0-162.22.2
+
+echo -e "\n\nQuery 2f: A query for a kernel that has been fully tested and all MQ VRMFs are compatible, MQ level does not match"
+echo "python rdqmkmodquery.py --mq 9.2.0.8 5.14.0-162.22.2"
+python rdqmkmodquery.py --mq 9.2.0.8 5.14.0-162.22.2
