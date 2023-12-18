@@ -5,6 +5,8 @@ In addition to the [IBM Support Document on RDQM kernel modules](https://www.ibm
 2. Red Hat Enterprise Linux (RHEL) Kernel version
 3. DRBD kernel module version
 
+You can find more information on this JSON document, and some other enhancements to the tools and information to help manage the RDQM (DRBD) kernel modules [here](https://community.ibm.com/community/user/integration/blogs/alex-chatt/2023/12/15/rdqm-kernel-module-administration-improvements).
+
 This repository contains sample code showing how to query the JSON document. The initial code is [Python](Python/README.md).
 
 ## Contributing
